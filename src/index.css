@@ -1,0 +1,100 @@
+.blockPanel {
+  width: 900px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.search-input {
+  width: 670px;
+}
+
+.app-list {
+  padding-bottom: 30px;
+  list-style: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.list-group-item.important > .app-list-item-label {
+  color: red;
+  font-weight: bolder;
+}
+
+i.bi {
+  margin-right: 10px;
+}
+
+i.bi.bi-star-fill {
+  color: rgb(205, 204, 201);
+  opacity: 40%;
+}
+i.bi.bi-heart-fill {
+  color: rgb(205, 204, 201);
+  opacity: 40%;
+}
+i.bi.bi-trash {
+  color: rgb(62, 57, 57);
+}
+
+i.bi.bi-arrow-down-right-circle-fill {
+  color: green;
+}
+
+.list-group-item.important i.bi.bi-star-fill {
+  color: rgb(255, 192, 7);
+  opacity: 100%;
+}
+.list-group-item.like i.bi.bi-heart-fill {
+  color: red;
+  opacity: 100%;
+}
+
+.modal {
+  display: block!important;
+}
+
+.modal-dialog {
+  pointer-events: painted!important;
+  width: 100%!important;
+  max-width: 550px;
+  background: rgb(252, 252, 252);
+  position: relative;
+  margin: 0 20px;
+  /* max-height: 100%; */
+  max-height: calc(100vh - 50px);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.modal-content {
+  padding: 10px;
+  background-color: rgb(252, 252, 252);
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.modal-header,
+.modal-footer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 3px;
+}
+.right {
+  text-align: right;
+  padding: 5px 12px;
+}
+
+button.btn-sm {
+  background: none;
+  border: none;
+}
