@@ -1,0 +1,40 @@
+.blockPanel {
+  width: 900px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.search-input {
+  width: 670px;
+}
+
+.app-list {
+  padding-bottom: 30px;
+  list-style: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.list-group-item.important > .app-list-item-label {
+  color: red;
+  font-weight: bolder;
+}
+
+i.bi.bi-star-fill, i.bi.bi-heart-fill {
+  margin-right: 10px;
+  color: rgb(205, 204, 201);
+  opacity: 40%;
+}
+i.bi.bi-trash {
+  color: rgb(62, 57, 57);
+}
+
+.list-group-item.important i.bi.bi-star-fill {
+  color: rgb(255, 192, 7);
+  opacity: 100%;
+}
+.list-group-item.like i.bi.bi-heart-fill {
+  color: red;
+  opacity: 100%;
+}/*# sourceMappingURL=index.module.css.map */
